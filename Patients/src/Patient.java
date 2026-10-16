@@ -15,4 +15,23 @@ public class Patient {
         this.CaffeineLevel = 0.0;
     }
 
+
+
+    public Object get(int i, String string) {
+        return null;
+    }
+
+    public String set(int i, Patient patients, String string) {
+       return string;
+        
+    }
+
+    public int size() {
+        return 0;
+    }
+
+    public void add(Patient patients) {
+        patients.add(patients);
+    }
+
 }

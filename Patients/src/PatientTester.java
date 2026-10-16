@@ -29,6 +29,26 @@ public class PatientTester {
 
     public static void main(String[] args) {
 
+        PatientManager patientManager = new PatientManager();
+        System.out.println( patientManager.toString());
+
+        patientManager.AddPatient(new Patient(1, 100));
+        patientManager.AddPatient(new Patient(2, 200));
+        patientManager.AddPatient(new Patient(3, 300));
+        patientManager.AddPatient(new Patient(4, 400));
+
+        System.out.println( patientManager.toString());
+
+        patientManager.CaffeineAbsorbtion();
+
+        System.out.println( patientManager.toString());
+
+        patientManager.removeHigestCaffeinePatient();
+
+        System.out.println( patientManager.toString());
+
+
+
     }
 
 }
